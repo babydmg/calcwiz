@@ -2,13 +2,13 @@ var electronInstaller = require('electron-winstaller');
 // In this case, we can use relative paths
 var settings = {
   // Specify the folder where the built app is located
-  appDirectory: './calcwiz-win32-ia32',
+  appDirectory: './CalcWiz-win32-ia32',
   // Specify the existing folder where
   outputDirectory: './myApplication-installers',
   // The name of the Author of the app (the name of your company)
-  authors: 'Dhankuwar Sisodiya',
+  authors: 'Taha Jameel',
   // The name of the executable of your built
-  exe: './calcwiz.exe',
+  exe: './CalcWiz.exe',
   description: 'My first electron application',
 };
 resultPromise = electronInstaller.createWindowsInstaller(settings);
